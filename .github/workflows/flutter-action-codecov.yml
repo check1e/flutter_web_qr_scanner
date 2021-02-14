@@ -1,4 +1,4 @@
-name: Test
+name: Flutter test, build, code coverage
 on:
   push:
     branches: [ main ]
