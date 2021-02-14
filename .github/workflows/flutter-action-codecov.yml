@@ -18,7 +18,8 @@ jobs:
       run: flutter pub get
     - name: Test app
       run: flutter test --coverage
-    - name: Build web
+    - name: Build web example project
+      working-directory: ./example
       run: flutter build web
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v1
