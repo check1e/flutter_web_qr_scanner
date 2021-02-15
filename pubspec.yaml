@@ -1,12 +1,12 @@
 name: flutter_qr_scanner
 description: A web QR scanner for Flutter web projects. Scan QR codes and capture images
-version: 0.0.1
-author:
-homepage:
+version: 0.0.1-259.9.beta
+author: sitodal
+homepage: https://check1e.github.io
 
 environment:
   sdk: '>=2.12.0-259.9.beta <3.0.0'
-  flutter: ">=1.22.0"
+  flutter: ">=1.26.0-17.5.pre"
 
 dependencies:
   flutter:
